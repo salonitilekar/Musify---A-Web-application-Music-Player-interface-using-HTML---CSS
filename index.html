@@ -114,7 +114,12 @@ rel="stylesheet">
               <div class="item">
                 <img src="images/PL-Bollywood-Mush.png" />
                 <div class="play">
-                  <span class="fa fa-play"></span>
+                  <a href="#">
+                    <button type="button" onclick="Audio">
+                    <audio id='mysound' source src="music/BabyElephantWalk60.wav"></audio>
+                    <span class="fa fa-play"></span>
+                  </button>
+                  </a>
                 </div>
                 <h4>Bollywood Mush</h4>
                 <p>New Music from Mitraz, Jonita Gandhi an...</p>
@@ -276,8 +281,26 @@ rel="stylesheet">
             </div>
             <hr>
           </div>
+
+          <div class="player-controls">
+            <div class="shufflebutton">
+              <button type="button" class="fas fa-random" style="border: none;"></button>               
+            </div>
+            <div class="prevbutton">
+              <button type="button" class="fas fa-step-backward" style="border: none;"></button>
+            </div>
+            <div class="playbutton">
+              <button type="button" class="fas fa-play" style="border: none;"></button>
+            </div>
+            <div class="nextbutton">
+              <button type="button" class="fas fa-step-forward" style="border: none;"></button>
+            </div>
+            <div class="repeatbutton">
+              <button type="button" class="fas fa-solid fa-repeat" style="border: none;"></button>            
+            </div>
+          </div>
     
-          <div class="preview">
+ <!--         <div class="preview">
             <div class="text">
               <h6>Preview of Musify</h6>
               <p>Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</p>
@@ -287,7 +310,8 @@ rel="stylesheet">
             </div>
           </div>
         </div>
-    
+ -->   
+
     <script src="https://kit.fontawesome.com/af7881a122.js" 
     crossorigin="anonymous">
 </script>

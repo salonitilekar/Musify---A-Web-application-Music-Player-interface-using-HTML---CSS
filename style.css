@@ -213,8 +213,48 @@ body{
     margin: 70px 0px 0px;
     border-color: #636363;
   }
-  
-  .preview {
+
+  .player-controls {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: black;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .player-controls .playbutton .fas {
+    padding: 10px;
+    background-color: white;
+    border-radius: 100%;
+  }
+
+  .player-controls .nextbutton .fas {
+    padding: 10px;
+    color: white;
+    background-color: #000000;
+  }
+
+  .player-controls .prevbutton .fas {
+    padding: 10px;
+    color: white;
+    background-color: #000000;
+  }
+
+  .player-controls .shufflebutton .fas {
+    padding: 10px;
+    color: white;
+    background-color: #000000;
+  }
+
+  .player-controls .repeatbutton .fas {
+    padding: 10px;
+    color: white;
+    background-color: #000000;
+  } 
+/*  .preview {
     position: fixed;
     bottom: 0;
     left: 0;
@@ -246,3 +286,5 @@ body{
     border-radius: 40px;
     cursor: pointer;
   }
+
+*/
