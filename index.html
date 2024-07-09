@@ -105,7 +105,11 @@ rel="stylesheet">
               <div class="item">
                 <img src="/images/PL-BollywoodTopHits.png" />
                 <div class="play">
-                  <span class="fa fa-play"></span>
+                  <button type="button" class="fa fa-play" onclick="BollywoodTopHits.play();"></button>
+                  <script type="text/javascript">
+                    const BollywoodTopHits = new Audio();
+                    BollywoodTopHits.src = "/music/Mainu Vida Karo - Chamkila.mp3"
+                  </script>
                 </div>
                 <h4>Top Hits Hindi</h4>
                 <p>From Chamkila to Lapata Ladies these are top...</p>
@@ -114,12 +118,11 @@ rel="stylesheet">
               <div class="item">
                 <img src="images/PL-Bollywood-Mush.png" />
                 <div class="play">
-                  <a href="#">
-                    <button type="button" onclick="Audio">
-                    <audio id='mysound' source src="music/BabyElephantWalk60.wav"></audio>
-                    <span class="fa fa-play"></span>
-                  </button>
-                  </a>
+                    <button type="button" class="fa fa-play" onclick="BollywoodMush.play();"></button>
+                    <script type="text/javascript">
+                      const BollywoodMush = new Audio();
+                      BollywoodMush.src = "/music/MITRAZ - Gulaab (Official Audio).mp3"
+                    </script>
                 </div>
                 <h4>Bollywood Mush</h4>
                 <p>New Music from Mitraz, Jonita Gandhi an...</p>
@@ -128,7 +131,11 @@ rel="stylesheet">
               <div class="item">
                 <img src="images/PL7-Bollywood-Travel.png" />
                 <div class="play">
-                  <span class="fa fa-play"></span>
+                  <button type="button" class="fa fa-play" onclick="BollywoodTravel.play();"></button>
+                  <script type="text/javascript">
+                    const BollywoodTravel = new Audio();
+                    BollywoodTravel.src = "/music/Dil Dhadakne Do  - Zindagi Na Milegi Dobara.mp3"
+                  </script>
                 </div>
                 <h4>Road Trip</h4>
                 <p>All time travel favorites on the wheel...</p>
@@ -137,7 +144,11 @@ rel="stylesheet">
               <div class="item">
                 <img src="images/PL3-Bollywood-Dance.png" />
                 <div class="play">
-                  <span class="fa fa-play"></span>
+                  <button type="button" class="fa fa-play" onclick="BollywoodDance.play();"></button>
+                  <script type="text/javascript">
+                    const BollywoodDance = new Audio();
+                    BollywoodDance.src = "/music/What Jhumka - Rocky Aur Rani Kii Prem Kahaani.mp3"
+                  </script>
                 </div>
                 <h4>Bollywood Dance</h4>
                 <p>Groove and move to the beat and vibe...</p>
@@ -290,7 +301,7 @@ rel="stylesheet">
               <button type="button" class="fas fa-step-backward" style="border: none;"></button>
             </div>
             <div class="playbutton">
-              <button type="button" class="fas fa-play" style="border: none;"></button>
+              <button type="button" class="fas fas fa-pause" style="border: none;"></button>
             </div>
             <div class="nextbutton">
               <button type="button" class="fas fa-step-forward" style="border: none;"></button>
